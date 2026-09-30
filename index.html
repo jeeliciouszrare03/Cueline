@@ -223,33 +223,12 @@ let editingPlayerId=null;
 let confirmCallback=null;
 
 const seedPlayers=[
- {id:"p1",name:"Juan Dela Cruz",rating:850,wins:12,losses:4},
- {id:"p2",name:"Mark Santiago",rating:780,wins:9,losses:5},
- {id:"p3",name:"Carlo Reyes",rating:765,wins:8,losses:6},
- {id:"p4",name:"Dave Villanueva",rating:720,wins:6,losses:7},
- {id:"p5",name:"Kevin Mendoza",rating:690,wins:5,losses:8},
- {id:"p6",name:"John Ramirez",rating:892,wins:24,losses:5},
- {id:"p7",name:"Alex Morgan",rating:876,wins:21,losses:7},
- {id:"p8",name:"Chris Villanueva",rating:845,wins:20,losses:8},
- {id:"p9",name:"Peter Lopez",rating:810,wins:15,losses:10},
- {id:"p10",name:"Ryan Tan",rating:795,wins:13,losses:11}
 ];
 const seedQueue=[
- {id:"q1",playerId:"p1",name:"Juan Dela Cruz",rating:850,joined:"2:44 PM"},
- {id:"q2",playerId:"p2",name:"Mark Santiago",rating:780,joined:"2:43 PM"},
- {id:"q3",playerId:"p3",name:"Carlo Reyes",rating:765,joined:"2:42 PM"},
- {id:"q4",playerId:"p4",name:"Dave Villanueva",rating:720,joined:"2:40 PM"},
- {id:"q5",playerId:"p5",name:"Kevin Mendoza",rating:690,joined:"2:38 PM"}
 ];
 const seedMatches=[
- {id:"m1",p1:"John Ramirez",p2:"Peter Lopez",s1:7,s2:5,table:1,startedAt:Date.now()-45*60000,done:false},
- {id:"m2",p1:"Alex Morgan",p2:"Ryan Tan",s1:6,s2:4,table:2,startedAt:Date.now()-35*60000,done:false},
- {id:"m3",p1:"Chris Villanueva",p2:"Mark Balagtas",s1:7,s2:6,table:3,startedAt:Date.now()-25*60000,done:false}
 ];
 const seedHistory=[
- {id:"h1",date:"Today, 2:30 PM",p1:"John Ramirez",p2:"Peter Lopez",s1:7,s2:5,winner:"John Ramirez",table:4},
- {id:"h2",date:"Today, 2:10 PM",p1:"Alex Morgan",p2:"Ryan Tan",s1:6,s2:4,winner:"Alex Morgan",table:5},
- {id:"h3",date:"Today, 1:50 PM",p1:"Chris Villanueva",p2:"Mark Balagtas",s1:7,s2:6,winner:"Chris Villanueva",table:6}
 ];
 
 function defaultState(){
